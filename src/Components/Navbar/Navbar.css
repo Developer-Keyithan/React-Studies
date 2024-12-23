@@ -1,0 +1,37 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+ul {
+    display: flex;
+    gap: 2vw;
+    font-weight: bold;
+    list-style: none;
+}
+
+ul li {
+    transition: 0.2s ease-in-out;
+}
+
+ul li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+a {
+    background: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
