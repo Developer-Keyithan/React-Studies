@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: Poppins;
+
+    --medium: 3vw;
+    --small: 1.5vw;
+    --middle: 2vw;
+
+    --bg-odd: #47321a;
+    --bg-even: #37230a;
+    --add: #c8914b;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    scroll-padding-top: 4vw;
+}
+
+.contact {
+    background: var(--bg-even);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vw 0;
+}
+
+.contact-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw 0;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-heading {
+    color: white;
+    font-size: var(--medium);
+}
+
+.contact-discription {
+    color: white;
+    font-size: var(--small);
+    line-height: 3vw;
+    transition: 0.6s;
+}
+
+.contact-discription:hover {
+    transform: scale(1.1);
+    color: var(--add);
+}
+
+.form {
+    border-radius: 0.3vw;
+    border: none;
+    outline: none;
+    padding: 1vw 2vw;
+    color: gray;
+    margin: 0.5vw 0;
+    transition: 0.6s;
+}
+
+.form:hover {
+    transform: scale(1.1);
+}
+
+.personal {
+    height: 3vw;
+    width: 40vw;
+    transition: 0.6s;
+    font-size: medium;
+}
+
+.textarea {
+    width: 40vw;
+    height: 6vw;
+    transition: 0.6s;
+    font-size: medium;
+}
+
+.personal, .textarea::placeholder {
+    font-size: medium;
+    color: gray;
+}
+
+.form-btn {
+    height: 5vw;
+    margin: 0.5vw 0;
+    padding: 0 3vw;
+    width: fit-content;
+    border-radius: 3vw;
+    outline: none;
+    border: none;
+    font-size: var(--small);
+    font-weight: 700;
+    background: var(--bg-odd);
+    color: white;
+    transition: 0.6s;
+}
+
+.form-btn:hover {
+    background-color: var(--add);
+    color: black;
+    transform: scale(1.2);
+}

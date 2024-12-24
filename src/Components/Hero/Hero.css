@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: Poppins;
+
+    --medium: 3vw;
+    --small: 1.5vw;
+    --middle: 2vw;
+
+    --bg-odd: #47321a;
+    --bg-even: #37230a;
+    --add: #c8914b;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    scroll-padding-top: 4vw;
+}
+
+.hero {
+    background: #37230a;
+
+    display: flex;
+    padding: 1vh 1vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-section {
+    padding: 3vh 3vw;
+}
+.hero-img {
+    height: 40vw;
+    transition: 0.6s;
+}
+
+.hero-img:hover {
+    transform: scale(1.2);
+}
+
+.left-section {
+    padding: 3vh 3vw;
+}
+
+.hero-heading {
+    color: var(--add);
+    font-size: var(--medium);
+}
+
+.note {
+    color: white;
+    font-size: var(--medium);
+}
+
+.hero-discription {
+    color: white;
+    font-size: var(--small);
+    margin-top: 1vw;
+    line-height: 2vw;
+}
+
+.hero-btn {
+    height: 5vw;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 0 3vw;
+    border-radius: 3vw;
+    font-size: var(--small);
+    font-weight: 700;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    transition: 0.6s;
+}
+
+.hero-btn:hover {
+    background-color: var(--add);
+    border:2px solid var(--add);
+    color: black;
+    transform: scale(1.2);
+}
